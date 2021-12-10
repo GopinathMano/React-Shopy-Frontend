@@ -1,6 +1,8 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Amazon clone app on my view:
+
+# deployed Link [click here](https://lucid-carson-b3fd8a.netlify.app/)
 
 ## Available Scripts
 
