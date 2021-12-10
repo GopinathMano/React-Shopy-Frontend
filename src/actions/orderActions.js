@@ -15,7 +15,7 @@ export const createOrder = (order) => async (dispatch, getState) => {
     const {
       userSignin: { userInfo },
     } = getState();
-    const { data } = await Axios.post('/api/orders', order, {
+    const { data } = await Axios.post('https://safe-thicket-22006.herokuapp.com/api/orders', order, {
       headers: {
         Authorization: `Bearer ${userInfo.token}`,
       },
@@ -40,7 +40,7 @@ export const detailsOrder = (orderId) => async (dispatch, getState) => {
     userSignin: { userInfo },
   } = getState();
   try {
-    const { data } = await Axios.get(`/api/orders/${orderId}`, {
+    const { data } = await Axios.get(`https://safe-thicket-22006.herokuapp.com/api/orders/${orderId}`, {
       headers: { Authorization: `Bearer ${userInfo.token}` },
     });
     dispatch({ type: ORDER_DETAILS_SUCCESS, payload: data });
