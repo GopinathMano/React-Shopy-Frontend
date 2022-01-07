@@ -4,6 +4,11 @@
 
 # deployed Link [click here](https://lucid-carson-b3fd8a.netlify.app/)
 
+
+Dummy credentials for testing
+Email- test@gmail.com
+PWD - Test123
+
 ## Available Scripts
 
 In the project directory, you can run:
